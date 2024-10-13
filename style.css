@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+main {
+  width: 360px;
+  margin: 16px auto 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  height: 160px;
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+button {
+  padding: 4px 16px;
+  cursor: pointer;
+}
+
+span {
+  font-size: 14px;
+  margin-right: auto;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.appear {
+  opacity: 1;
+}
