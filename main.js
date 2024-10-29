@@ -44,7 +44,11 @@
 
   save.addEventListener("click", () => {
     if (text.value.trim() !== "") {
-      memos.push(text.value);
+      const newMemo = {
+        text: text.value,
+        date: new Date().toISOString(),
+      };
+      memos.push(newMemo);
       localStorage.setItem("memos", JSON.stringify(memos));
       text.value = "";
       displayMemos();
