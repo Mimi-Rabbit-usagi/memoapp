@@ -3,6 +3,7 @@
 {
   const text = document.getElementById("text");
   const save = document.getElementById("save");
+  const clear = document.getElementById("clear");
   const message = document.getElementById("message");
   const memoList = document.getElementById("memo-list");
 
